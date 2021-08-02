@@ -24,4 +24,5 @@
 3. Train
 
 <YOLOv3>
-opencv 다운로드 필수
+-opencv 다운로드 필수
+-COCO 사용함
