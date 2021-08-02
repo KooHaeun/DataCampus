@@ -8,5 +8,15 @@
 참고링크 : https://github.com/Megvii-BaseDetection/YOLOX/blob/main/docs/train_custom_data.md#train-custom-data
 
 2. YOLOv3 : 가장 많이 상용화된 YOLO
-
+-라벨링: YOLO-mark -> https://github.com/AlexeyAB/Yolo_mark
 ----------------------------------------------------------------------------------------------------------------
+<YOLOX>
+1.create dataset
+ 1) 라벨링을 한다 : Labelme 또는 CVAT 활용
+ 2) 대응하는 Dataset Class : __getitem__
+     -> COCO format
+     -> VOC format
+ 3) evaluator metric : COCO evaluator and VOC evaluator
+
+2. create your exp file
+3. Train
