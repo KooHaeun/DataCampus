@@ -1,5 +1,5 @@
 0. R-CNN는 정확도는 높으나 속도가 느리다.(classification)
-   -> regression, CNN 방식 사용
+   -> YOLO : regression, CNN 방식 사용
 https://deepbaksuvision.github.io/Modu_ObjectDetection/posts/04_01_Review_of_YOLO_Paper.html
 
 
