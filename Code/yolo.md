@@ -22,3 +22,6 @@
 
 2. create your exp file
 3. Train
+
+<YOLOv3>
+opencv 다운로드 필수
