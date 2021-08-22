@@ -1,0 +1,1 @@
+## mediapipe handtracking android solution
