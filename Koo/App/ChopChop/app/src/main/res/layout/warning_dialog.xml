@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                style="@style/main_title"
+                android:text="젓가락질 예시"/>
+
+            <VideoView
+                android:id="@+id/example"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                style="@style/main_title"
+                android:text="주의사항"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                style="@style/dialog_text"
+                android:padding="20dp"
+                android:text="1. 소매를 접고 손목이 모두 보이게 촬영하세요\n\n2. 배경색이 손과 비슷한 장소는 피하고 \n    손을 감지할 수 있는 장소를 선택하세요\n\n3. 다양한 조명색을 시도하고 실내 조명이 \n    너무 어둡거나 밝지않은지 확인하세요.\n\n4. 휴대폰을 시계 반대 방향으로 돌리고 \n    가로 방향으로 촬영하세요."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
