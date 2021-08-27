@@ -5,6 +5,6 @@ LSTM-AE를 활용한 젓가락질 교정 서비스는 영상 데이터를 바탕
 
 ### 데이터 수집 방법
 
-<img src="./images/images/영상촬영.PNG"  width="700" height="370">
+<img src="images/images/영상촬영.PNG"  width="700" height="370">
 
 활용데이터의 경우, 저희 조는 영상 촬영 방법을 정하여 젓가락질 영상 데이터를 직접 수집하였습니다. 
