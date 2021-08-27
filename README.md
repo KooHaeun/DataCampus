@@ -51,3 +51,5 @@ AutoEncoder를 적용하게 되었습니다.
 <img src="https://user-images.githubusercontent.com/87642864/131119304-a33c1d1a-4927-43a2-a812-80887bc78200.PNG"  width="520" height="270">
 
 <img src="https://user-images.githubusercontent.com/87642864/131119352-20f4903e-8370-4ca4-b4f5-4af0de7462bd.PNG"  width="520" height="270">
+
+결과물로 앱을 만들었으며, 영상촬영 또는 동영상 업로드를 통해 자신의 젓가락질이 옳고 그른지 확인할 수 있습니다. 또한, 결과 화면에 나오는 올바른 젓가락질을 따라하며 연습할 수 있고 방금 분석한 젓가락질을 저장하여 추후 기록 확인 부분에서 찾아볼 수 있습니다.
