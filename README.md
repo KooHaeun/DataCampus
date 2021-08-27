@@ -21,12 +21,12 @@ LSTM-AE를 활용한 젓가락질 교정 서비스는 영상 데이터를 바탕
 
 #### 데이터 전처리
 
-##### Feature 직접 만들기
+##### 올바른 젓가락질의 특징
 
 <img src="https://user-images.githubusercontent.com/87642864/131116974-749692cd-9b33-4c2c-80e0-e0cdf226edd4.PNG"  width="550" height="250">
 
 
-##### Feature에 맞춰서 전처리
+##### Feature Engineering
 
 <img src="https://user-images.githubusercontent.com/87642864/131117158-a329810a-4358-4f29-9098-6859c0782e8a.PNG"  width="600" height="270">
 
@@ -44,13 +44,4 @@ LSTM-AE를 활용한 젓가락질 교정 서비스는 영상 데이터를 바탕
 AutoEncoder를 적용하게 되었습니다.
 
 
-##### 시계열 시각화
 
-<img src="https://user-images.githubusercontent.com/87642864/131117964-38e57bef-484b-4437-9084-50c0b8afb044.PNG"  width="750" height="400">
-
-
-##### 모델링
-
-<img src="https://user-images.githubusercontent.com/87642864/131118675-ed07caa0-884f-4237-9e6f-ddc04977f762.PNG"  width="600" height="300">
-
-<img src="https://user-images.githubusercontent.com/87642864/131118729-ced5dc11-e33d-4881-ae45-af93ced5fb0d.PNG"  width="600" height="300">
