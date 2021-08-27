@@ -1,0 +1,38 @@
+<yolo>
+https://paperswithcode.com/paper/yolox-exceeding-yolo-series-in-2021 
+yolov3-yolov4-yolox
+많이 쓰이는 알고리즘이라 공개된 코드가 많다. yolov3 시험 테스트를 진행하였고, yolox 를 사용하여 custom data 를 학습하기 위해 젓가락을 라벨링하였다.
+코드 구현 도중 에러가 나 추가 수정은 못하였다.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<convlstm movingmnist>
+convlstm 논문(Convolution LSTM network_a machine learning approach for precipitation nowcasting)을 읽고 날씨 예측에 많이 쓰이고 관련 예시도 많음을 확인하였다.
+convlstm의 기본 예시인 movingmnist를 시험해보았다.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<video action recognition>
+https://seoilgun.medium.com/video-action-recognition-c322db5f1f13
+
+1. video action recognition(classification) -> 시간이 2번보다 덜 걸린다.
+2. Skeleton Based action recognition(classification)
+
+우리가 하려는 작업은 fine-grained 데이터셋
+유사한 데이터셋으로 Something Something V1이 있다.
+
+알고리즘으로는 PAN, TPN, BERT, i3d 등이 있다. 여러가지 모델 중 Temporal Shift Module 코드를 시도해보았으나 에러로 인해 완성하진 못하였다.
+https://github.com/piergiaj/pytorch-i3d
+https://github.com/deepmind/kinetics-i3d
+https://github.com/mit-han-lab/temporal-shift-module#prerequisites
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<RNN과 LSTM>
+https://brunch.co.kr/@chris-song/9
+RNN은 이전의 정보를 현재의 문제 해결에 활용한다. LSTM의 RNN의 장기 의존성 문제를 해결하기 위해 디자인되었다. 가장 기본적인 예시로는 단어 예측이 많다.
+https://www.youtube.com/watch?v=1vGOQAel2yU : PyTorch RNN 강의
+Tensorflow에 나와있는 ts(시계열) 예시를 추가로 살펴보았다.
+LSTM(Long Short-term Memory) 논문 읽기
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<골격 좌표 벡터 및 LSTM 모델을 이용한 넘어짐 검출(유사논문)>
+우리가 하는 활동과 비슷하여 이를 참고하여 코드를 만들고 있다. (공개된 코드가 없음)
+젓가락질 모습 랜드마크 추출 -> 점끼리 연결하여 벡터화 -> LSTM -> LSTM 연결 -> Classification

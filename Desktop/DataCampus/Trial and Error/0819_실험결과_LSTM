@@ -1,0 +1,32 @@
+[normed1615]\
+epoch: 30
+AUC: 0.90
+accuracy: 0.82
+
+[minmean]\
+AUC: 0.8795
+accuracy: 0.828
+
+[nomred32]\
+AUC: 0.8921
+accuracy: 0.74
+
+[normed_min]\
+AUC: 0.9290 / 0.879
+accuracy: 0.828 / 0.85
+
+[normed1615_final]\
+AUC: 0.8816
+accuracy: 0.80
+
+[nomred32_final]\
+AUC: 0.838
+accuracy: 0.792
+
+[nomred_min_final]\
+AUC: 0.91
+accuracy: 0.792
+
+[minmean]\
+AUC: 0.91
+accuracy: 0.836
