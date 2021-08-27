@@ -46,5 +46,5 @@ AutoEncoder를 적용하게 되었습니다.
 
 ##### 시계열 시각화
 
-<img src="https://user-images.githubusercontent.com/87642864/131117964-38e57bef-484b-4437-9084-50c0b8afb044.PNG"  width="750" height="200">
+<img src="https://user-images.githubusercontent.com/87642864/131117964-38e57bef-484b-4437-9084-50c0b8afb044.PNG"  width="350" height="500">
 
