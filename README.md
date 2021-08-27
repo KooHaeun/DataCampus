@@ -46,6 +46,6 @@ AutoEncoder를 적용하게 되었습니다.
 
 #### Application
 
-<img src="https://user-images.githubusercontent.com/87642864/131119224-25ca9938-2aaa-4428-bbac-8e356d22740a.PNG"  width="500" height="200">
+<img src="https://user-images.githubusercontent.com/87642864/131119224-25ca9938-2aaa-4428-bbac-8e356d22740a.PNG"  width="500" height="250">
 
 
