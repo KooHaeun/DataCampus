@@ -30,9 +30,9 @@ Mediapipeline을 사용하여 16개의 손가락 관절 좌표값을 추출하�
 
 ##### Feature Engineering
 
-<img src="https://user-images.githubusercontent.com/87642864/131117158-a329810a-4358-4f29-9098-6859c0782e8a.PNG"  width="640" height="300">
+<img src="https://user-images.githubusercontent.com/87642864/131117158-a329810a-4358-4f29-9098-6859c0782e8a.PNG"  width="580" height="240">
 
-<img src="https://user-images.githubusercontent.com/87642864/131117200-d61319df-0a28-450f-9a5d-026fb4264e2d.PNG"  width="640" height="300">
+<img src="https://user-images.githubusercontent.com/87642864/131117200-d61319df-0a28-450f-9a5d-026fb4264e2d.PNG"  width="580" height="240">
 
 손가락 마디를 연결하여 벡터값을 만든 후 Feature Engineering을 진행했습니다.  
 추가한 Feature는 D_ratio, Sin(각도 차), 엄지-중지 내적, 검지-중지 내적 값입니다.
