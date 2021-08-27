@@ -35,5 +35,5 @@ LSTM-AE를 활용한 젓가락질 교정 서비스는 영상 데이터를 바탕
 
 #### 모델
 
-<img src="https://user-images.githubusercontent.com/87642864/131117518-a062f481-510e-44ba-9e64-62a9867ed3c1.PNG"  width="600" height="270">
+<img src="https://user-images.githubusercontent.com/87642864/131117518-a062f481-510e-44ba-9e64-62a9867ed3c1.PNG"  width="550" height="240">
 
