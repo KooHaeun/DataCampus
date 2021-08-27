@@ -28,9 +28,9 @@ LSTM-AE를 활용한 젓가락질 교정 서비스는 영상 데이터를 바탕
 
 ##### Feature Engineering
 
-<img src="https://user-images.githubusercontent.com/87642864/131117158-a329810a-4358-4f29-9098-6859c0782e8a.PNG"  width="600" height="270">
+<img src="https://user-images.githubusercontent.com/87642864/131117158-a329810a-4358-4f29-9098-6859c0782e8a.PNG"  width="700" height="270">
 
-<img src="https://user-images.githubusercontent.com/87642864/131117200-d61319df-0a28-450f-9a5d-026fb4264e2d.PNG"  width="600" height="270">
+<img src="https://user-images.githubusercontent.com/87642864/131117200-d61319df-0a28-450f-9a5d-026fb4264e2d.PNG"  width="700" height="270">
 
 
 #### 모델
