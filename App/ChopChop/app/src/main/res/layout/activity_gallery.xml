@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/bar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <Gallery
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/gallery1"
+        android:spacing="10dp"
+        android:orientation="horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/noVideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:text="아직 젓가락질 교정 기록이 없습니다."
+                style="@style/main_title"/>
+            <VideoView
+                android:id="@+id/videoVideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

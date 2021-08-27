@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "942682866932",
+    "project_id": "chopchop-f3d74",
+    "storage_bucket": "chopchop-f3d74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942682866932:android:b88b4b121d32a98c0c0aa1",
+        "android_client_info": {
+          "package_name": "com.example.chopchop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942682866932-74tnu97a4f976bs3gsqceiadcj1jst3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6003rBP-SWwou6cXuI67s9hTSDV3GDiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942682866932-74tnu97a4f976bs3gsqceiadcj1jst3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

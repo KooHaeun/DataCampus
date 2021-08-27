@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/bar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="5dp"
+        android:text="다음"
+        android:visibility="invisible"
+        android:enabled="false"
+        />
+
+    <TextView
+        android:id="@+id/correct_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="30dp"
+        style="@style/main_title"
+        android:text="젓가락질을 보여주세요"/>
+
+    <Button
+        android:id="@+id/warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/correct_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="18dp"
+        style="@style/btn_text"
+        android:text="예시 및 주의사항"
+        />
+
+    <ImageButton
+        android:id="@+id/cap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/background"
+        android:src="@drawable/camera_64"
+        />
+    <ImageButton
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="100dp"
+        android:background="@color/background"
+        android:src="@drawable/video_64"
+        />
+
+    <FrameLayout
+        android:id="@+id/preview_display_layout"
+        app:layout_constraintTop_toBottomOf="@id/warning"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:id="@+id/cor_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="교정하고 싶은 젓가락질의\n 파일 형식을 선택해주세요"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/text"
+            android:textSize="18sp"/>
+        <SurfaceView
+            android:id="@+id/camera_preview"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:visibility="invisible"/>
+    </FrameLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
