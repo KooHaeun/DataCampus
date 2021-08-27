@@ -21,7 +21,7 @@ LSTM-AE를 활용한 젓가락질 교정 서비스는 영상 데이터를 바탕
 Mediapipeline을 사용하여 16개의 손가락 관절 좌표값을 추출하였습니다.
 
 
-#### 데이터 전처리
+### 데이터 전처리
 
 ##### 올바른 젓가락질의 특징
 
@@ -37,7 +37,7 @@ Mediapipeline을 사용하여 16개의 손가락 관절 좌표값을 추출하�
 손가락 마디를 연결하여 벡터값을 만든 후 Feature Engineering을 진행했습니다.  
 추가한 Feature는 D_ratio, Sin(각도 차), 엄지-중지 내적, 검지-중지 내적 값입니다.
 
-#### 모델
+### 모델
 
 <img src="https://user-images.githubusercontent.com/87642864/131117518-a062f481-510e-44ba-9e64-62a9867ed3c1.PNG"  width="750" height="200">
 
@@ -48,7 +48,7 @@ Mediapipeline을 사용하여 16개의 손가락 관절 좌표값을 추출하�
 AutoEncoder를 적용하게 되었습니다.
 
 
-#### Application
+### Application
 
 <img src="https://user-images.githubusercontent.com/87642864/131119944-e4ecde7c-e346-4085-9006-e0512058d57d.PNG"  width="670" height="300">
 
