@@ -51,6 +51,6 @@ AutoEncoder를 적용하게 되었습니다.
 
 ##### 모델링
 
-<img src="https://user-images.githubusercontent.com/87642864/131118675-ed07caa0-884f-4237-9e6f-ddc04977f762.PNG"  width="750" height="400">
+<img src="https://user-images.githubusercontent.com/87642864/131118675-ed07caa0-884f-4237-9e6f-ddc04977f762.PNG"  width="600" height="300">
 
-<img src="https://user-images.githubusercontent.com/87642864/131118729-ced5dc11-e33d-4881-ae45-af93ced5fb0d.PNG"  width="750" height="400">
+<img src="https://user-images.githubusercontent.com/87642864/131118729-ced5dc11-e33d-4881-ae45-af93ced5fb0d.PNG"  width="600" height="300">
