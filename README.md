@@ -44,4 +44,8 @@ LSTM-AE를 활용한 젓가락질 교정 서비스는 영상 데이터를 바탕
 AutoEncoder를 적용하게 되었습니다.
 
 
+#### Application
+
+<img src="https://user-images.githubusercontent.com/87642864/131119224-25ca9938-2aaa-4428-bbac-8e356d22740a.PNG"  width="500" height="200">
+
 
