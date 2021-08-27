@@ -18,7 +18,7 @@ LSTM-AE를 활용한 젓가락질 교정 서비스는 영상 데이터를 바탕
 
 <img src="https://user-images.githubusercontent.com/87642864/131116539-49ccc4f0-955a-400f-a3d3-634d16bae12e.PNG"  width="700" height="300">
 
-Mediapipeline을 사용하여 16개의 손가락 관절 좌표값을 추출하였습니다.
+Mediapipeline을 사용하여 17개의 손가락 관절 좌표값을 추출하였습니다.
 
 
 ### 데이터 전처리
