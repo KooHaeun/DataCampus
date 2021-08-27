@@ -17,3 +17,13 @@ LSTM-AE를 활용한 젓가락질 교정 서비스는 영상 데이터를 바탕
 #### 손가락 관절 좌표값 추출
 
 <img src="https://user-images.githubusercontent.com/87642864/131116539-49ccc4f0-955a-400f-a3d3-634d16bae12e.PNG"  width="700" height="300">
+
+
+#### 데이터 전처리
+
+##### Feature 직접 만들기
+
+<img src="https://user-images.githubusercontent.com/87642864/131116974-749692cd-9b33-4c2c-80e0-e0cdf226edd4.PNG"  width="700" height="300">
+
+
+
