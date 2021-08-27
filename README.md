@@ -48,4 +48,6 @@ AutoEncoder를 적용하게 되었습니다.
 
 <img src="https://user-images.githubusercontent.com/87642864/131119224-25ca9938-2aaa-4428-bbac-8e356d22740a.PNG"  width="520" height="270">
 
+<img src="https://user-images.githubusercontent.com/87642864/131119304-a33c1d1a-4927-43a2-a812-80887bc78200.PNG"  width="520" height="270">
 
+<img src="https://user-images.githubusercontent.com/87642864/131119352-20f4903e-8370-4ca4-b4f5-4af0de7462bd.PNG"  width="520" height="270">
