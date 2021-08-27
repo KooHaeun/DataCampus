@@ -25,7 +25,7 @@ Mediapipeline을 사용하여 16개의 손가락 관절 좌표값을 추출하�
 
 ##### 올바른 젓가락질의 특징
 
-<img src="https://user-images.githubusercontent.com/87642864/131116974-749692cd-9b33-4c2c-80e0-e0cdf226edd4.PNG"  width="500" height="200">
+<img src="https://user-images.githubusercontent.com/87642864/131116974-749692cd-9b33-4c2c-80e0-e0cdf226edd4.PNG"  width="450" height="200">
 
 
 ##### Feature Engineering
